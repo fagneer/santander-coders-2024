@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+
+    <main>
+        <h1>Formulário</h1>
+        <hr><br>
+
+        <form action="" method="post">
+            <div>
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" placeholder="Digite seu nome..." value="Fagner Gomes" name="nome">
+            </div>
+
+            <div>
+                <label for="senha">Senha: </label>
+                <input type="password" id="senha" placeholder="Digite sua senha..." value="senha do fagner" name="senha">
+            </div>
+
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" placeholder="Digite seu email..." value="Fagner Gomes" name="email">
+            </div>
+
+            <div>
+                <label for="data">Data de Nascimento: </label>
+                <input type="date" id="data" placeholder="Digite sua Data de Nascimento..." value="Nascimento do Fagner" name="data">
+            </div>
+
+            <div>
+                <label for="hora">Hora: </label>
+                <input type="time" id="hora" placeholder="Digite sua hora..." value="Hora de agora" name="hora">
+            </div>
+
+            <div>
+                <label for="numero">Numero: </label>
+                <input type="number" id="numero" placeholder="Digite sua numero..." value="numero do Fagner" name="numero">
+            </div>
+
+            <div>
+                <label for="file">File: </label>
+                <input type="file" id="file" placeholder="Digite sua file..." value="file do Fagner" name="file">
+            </div>
+
+            <div>
+                <label for="url">URL: </label>
+                <input type="url" id="url" placeholder="Digite sua url..." value="url do Fagner" name="url">
+            </div>
+
+            <div>
+                <label for="color">Cor: </label>
+                <input type="color" id="color" placeholder="Digite sua color..." value="color do Fagner" name="color">
+            </div>
+
+            <div>
+                <label for="range">range: </label>
+                <input type="range" id="range" placeholder="Digite sua range..." value="130" name="range" max="200" min="100">
+            </div>
+
+            <div>
+                <label for="checkbox">checkbox: </label>
+                <input type="checkbox" id="checkbox" placeholder="Digite sua checkbox..." value="checkbox do Fagner" name="checkbox" checked>
+            </div>
+
+            <div>
+                <label for="radio">radio: </label>
+                <input type="radio" id="radio" placeholder="Digite sua radio..." value="radio do Fagner" name="radio">
+            </div>
+
+            <div>
+                <label for="reset">reset: </label>
+                <input type="reset" id="reset" placeholder="Digite sua reset..." value="Reset" name="reset">
+            </div>
+
+            <div>
+                <label for="bio">Bio: </label>
+                <textarea name="bio" id="bio" cols="50" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="select">Select: </label>
+                <select name="select" id="select">
+                    <option value="" disabled selected>
+                        Selecione uma opção
+                    </option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa" >Despesa</option>
+                    <option value="transferencia">Transferência</option>
+                </select>
+            </div>
+
+            <hr>
+
+            <div>
+                <input type="submit" id="submit" placeholder="Digite sua submit..." value="submit" name="submit">
+            </div>
+            
+        </form>
+    </main>
+    
+</body>
+</html>
